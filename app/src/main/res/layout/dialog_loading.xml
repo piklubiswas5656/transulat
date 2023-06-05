@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    app:cardBackgroundColor="#d5d5d5"
+    android:orientation="vertical"
+    app:cardCornerRadius="8sp"
+    app:cardElevation="8sp">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <ProgressBar
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/progress_circular"/>
+
+        <TextView
+            android:textColor="#35324c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Downloading.."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstimedonload"
+            android:text="First Time Download"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>//.
+        0
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

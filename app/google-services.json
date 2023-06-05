@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1089685352658",
+    "project_id": "hindienglistra",
+    "storage_bucket": "hindienglistra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089685352658:android:13f08b1dd719d29787bd0b",
+        "android_client_info": {
+          "package_name": "hindi.english.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089685352658-9j2na8tqvs3eqfoq4u6h3ev2p8jn8ug1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn3CnC_eaTts5Y9G-F0lXICnWx6Q2RFLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089685352658-9j2na8tqvs3eqfoq4u6h3ev2p8jn8ug1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
